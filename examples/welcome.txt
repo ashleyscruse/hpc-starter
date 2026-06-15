@@ -1,0 +1,10 @@
+Welcome to HPC.
+
+If you can read this, you just opened a file on a supercomputer.
+
+A few things to remember:
+- The login node is shared. Keep heavy work off it.
+- Your projects live in $WORK.
+- Big, temporary job files go in $SCRATCH (it purges after 10 days).
+
+You're doing great. Head back to the walkthrough for the next step.

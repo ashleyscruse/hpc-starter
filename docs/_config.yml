@@ -1,0 +1,17 @@
+remote_theme: marella/jekyll-theme-documentation
+
+permalink: pretty
+baseurl: "/hpc-starter"
+title: "HPC Starter"
+description: "Get to know high performance computing, one command at a time"
+
+nav:
+- Start Here: ./
+- 1. Clone the Repo: ./01-clone
+- 2. Look Around: ./02-look-around
+- 3. Make a Folder: ./03-make-a-folder
+- 4. Edit a Script (nano): ./04-edit-with-nano
+- 5. Run Your Script: ./05-run-it
+- 6. Copy a Dataset: ./06-copy-data
+- More Than One Way In: ./07-many-ways-in
+- You Did It: ./08-you-did-it

@@ -1,0 +1,15 @@
+# Jekyll build output
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/.sass-cache/
+docs/vendor/
+docs/.bundle/
+Gemfile.lock
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
