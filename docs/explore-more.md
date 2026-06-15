@@ -36,8 +36,8 @@ man ls
 
 `man` opens the manual (press `q` to quit). Every command has one.
 
-💡 **Handy keys:** up-arrow repeats your last command, `history` shows everything you've typed, `clear` wipes the screen, and `Ctrl + C` cancels a command that's running.
+**Handy keys:** up-arrow repeats your last command, `history` shows everything you've typed, `clear` wipes the screen, and `Ctrl + C` cancels a command that's running.
 
-✅ **Checkpoint.** You created a file with `echo`, searched with `grep`, used a pipe, and found built-in help.
+**Checkpoint.** You created a file with `echo`, searched with `grep`, used a pipe, and found built-in help.
 
 Next: [More Than One Way In](./07-many-ways-in)

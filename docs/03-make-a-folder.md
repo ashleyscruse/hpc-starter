@@ -36,8 +36,8 @@ Go back up one level:
 cd ..
 ```
 
-✅ **Checkpoint.** You built `my-project/` with a `data/` folder inside, in `$WORK`.
+**Checkpoint.** You built `my-project/` with a `data/` folder inside, in `$WORK`.
 
-💡 **Tip:** `cd ..` goes up one folder, `cd ~` takes you home, `cd -` jumps back to where you just were.
+**Tip:** `cd ..` goes up one folder, `cd ~` takes you home, `cd -` jumps back to where you just were.
 
 Next: [Step 2: Clone a Setup](./01-clone)

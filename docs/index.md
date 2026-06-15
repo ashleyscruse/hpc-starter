@@ -33,7 +33,7 @@ Good news: every command in this walkthrough runs on **Vista's Linux**, not on y
   ssh taccusername@vista.tacc.utexas.edu
   ```
 
-Once your prompt looks something like `username@login2 $`, you're on Vista. From here on, **everyone types the exact same commands.** 🎉
+Once your prompt looks something like `username@login2 $`, you're on Vista. From here on, **everyone types the exact same commands.**
 
 ## A few comforting facts
 

@@ -2,12 +2,12 @@
 
 You just worked on a supercomputer. Look at everything you did:
 
-1. ✅ Toured the machine and looked around
-2. ✅ Made your own project folder, by hand
-3. ✅ Cloned a ready-made setup
-4. ✅ Edited a Python script in `nano`
-5. ✅ Ran your own code on Vista
-6. ✅ Copied a dataset into your workspace
+1. Toured the machine and looked around
+2. Made your own project folder, by hand
+3. Cloned a ready-made setup
+4. Edited a Python script in `nano`
+5. Ran your own code on Vista
+6. Copied a dataset into your workspace
 
 That's the whole foundation. Everything else builds on this.
 

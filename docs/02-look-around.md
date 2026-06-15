@@ -39,8 +39,8 @@ cd ~
 cd -
 ```
 
-✅ **Checkpoint.** You can see where you are and move between `$HOME` and `$WORK`.
+**Checkpoint.** You can see where you are and move between `$HOME` and `$WORK`.
 
-💡 **Tip:** Start typing a file or folder name and press **Tab**. The system finishes it for you, fewer typos, less typing.
+**Tip:** Start typing a file or folder name and press **Tab**. The system finishes it for you, fewer typos, less typing.
 
 Next: [Make a Folder](./03-make-a-folder)

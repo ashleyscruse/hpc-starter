@@ -40,7 +40,7 @@ module list   # software switched on right now
 ## What's a module?
 
 <div style="border:1px solid #ddd; border-radius:12px; padding:18px; margin:14px 0;">
-<div style="font-size:1.15em; font-weight:700;">🧰 Software you switch <em>on</em> when you need it</div>
+<div style="font-size:1.15em; font-weight:700;">Software you switch <em>on</em> when you need it</div>
 <p style="margin:8px 0 0;">The supercomputer is a workshop with every tool on locked shelves. Nothing's on by default. <code>module load python3</code> takes Python off the shelf and onto your bench. Log out, and the bench clears.</p>
 </div>
 
@@ -55,6 +55,6 @@ module list   # software switched on right now
 <p style="margin:8px 0;">Modules don't stick around. Every login starts with a fresh bench, so you reload what you need.</p>
 </details>
 
-✅ **Checkpoint.** You saw the machine is huge, that you get a sliver of it on the login node, and what a module is.
+**Checkpoint.** You saw the machine is huge, that you get a sliver of it on the login node, and what a module is.
 
 Next: [Look Around](./02-look-around)

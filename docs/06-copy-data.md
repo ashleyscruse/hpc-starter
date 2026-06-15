@@ -16,12 +16,12 @@ Confirm it arrived, and see how big it is:
 ls -lh $WORK/my-project/data/
 ```
 
-✅ **Checkpoint.** You should see `nyc_taxi.db` at about `6.3G` in your project's data folder.
+**Checkpoint.** You should see `nyc_taxi.db` at about `6.3G` in your project's data folder.
 
-💡 **What just happened:** the source path `/work/10539/ashleyscruse/vista/...` is on the instructor's account. You copied a file someone else staged for you, by its full path. That is a very common HPC pattern: a shared dataset lives in one place, and everyone copies (or reads) what they need.
+**What just happened:** the source path `/work/10539/ashleyscruse/vista/...` is on the instructor's account. You copied a file someone else staged for you, by its full path. That is a very common HPC pattern: a shared dataset lives in one place, and everyone copies (or reads) what they need.
 
-💡 **What's in it:** a SQLite database of NYC taxi trips. You don't need to open it today, you'll learn to query data like this later. For now, you just copied a real, multi-gigabyte dataset into your own workspace.
+**What's in it:** a SQLite database of NYC taxi trips. You don't need to open it today, you'll learn to query data like this later. For now, you just copied a real, multi-gigabyte dataset into your own workspace.
 
-💡 **Bringing your own data later:** from your laptop you can upload through the Tapis web portal at [morehouse.tapis.io](https://morehouse.tapis.io), or use `scp`. Today the skill is copying a staged dataset.
+**Bringing your own data later:** from your laptop you can upload through the Tapis web portal at [morehouse.tapis.io](https://morehouse.tapis.io), or use `scp`. Today the skill is copying a staged dataset.
 
 Next: [Explore More](./explore-more)

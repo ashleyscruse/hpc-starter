@@ -30,8 +30,8 @@ In nano, `^` means the **Ctrl** key.
 
 That's it. You're back at the prompt.
 
-✅ **Checkpoint.** Run `cat hello.py` and confirm your new message is in there.
+**Checkpoint.** Run `cat hello.py` and confirm your new message is in there.
 
-💡 **Tip:** If you ever feel trapped in a terminal editor, **Ctrl + X** (nano) gets you out. Save first if you want to keep changes.
+**Tip:** If you ever feel trapped in a terminal editor, **Ctrl + X** (nano) gets you out. Save first if you want to keep changes.
 
 Next: [Step 4: Run Your Script](./05-run-it)

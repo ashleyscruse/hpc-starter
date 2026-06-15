@@ -22,7 +22,7 @@ Step into the folder it created:
 cd hpc-starter
 ```
 
-✅ **Checkpoint.** Run `ls`. You should see something like:
+**Checkpoint.** Run `ls`. You should see something like:
 
 ```
 README.md   docs   examples   hello.py
@@ -49,8 +49,8 @@ wc -l examples/cities.csv
 less examples/cities.csv
 ```
 
-✅ **Checkpoint.** You cloned a ready-made project and explored its files, all without building it by hand.
+**Checkpoint.** You cloned a ready-made project and explored its files, all without building it by hand.
 
-💡 **Tip:** `git clone` only happens once. After that, the files are yours on the system.
+**Tip:** `git clone` only happens once. After that, the files are yours on the system.
 
 Next: [Step 3: Edit a Script with nano](./04-edit-with-nano)
