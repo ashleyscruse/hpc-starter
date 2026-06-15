@@ -1,20 +1,22 @@
-# Step 1: Clone the Repo
+# Step 2: Clone a Setup
 
-"Cloning" means copying a project from GitHub onto the system so you have your own working copy.
+You just built a folder by hand. That's perfect when you want your own structure.
 
-First, move into your `$WORK` space. This is where your projects live (it's bigger than `$HOME` and meant for exactly this).
+But often someone has already set up a project you like, and instead of rebuilding it by hand, you can copy their whole setup in one command. That's **cloning**.
+
+Make sure you're in `$WORK`:
 
 ```bash
 cd $WORK
 ```
 
-Now clone this repo:
+Clone this starter project:
 
 ```bash
 git clone https://github.com/ashleyscruse/hpc-starter.git
 ```
 
-Then step into the folder it created:
+Step into the folder it created:
 
 ```bash
 cd hpc-starter
@@ -26,6 +28,29 @@ cd hpc-starter
 README.md   docs   examples   hello.py
 ```
 
-💡 **Tip:** `git clone` only needs to happen once. After that, the files are yours on the system.
+Now look at what you just got, without making any of it yourself.
 
-Next: [Step 2: Look Around](./02-look-around)
+**Read a file:**
+
+```bash
+cat examples/welcome.txt
+cat hello.py
+```
+
+**Count the rows in the sample CSV:**
+
+```bash
+wc -l examples/cities.csv
+```
+
+**Scroll through a file** (press `q` to quit):
+
+```bash
+less examples/cities.csv
+```
+
+✅ **Checkpoint.** You cloned a ready-made project and explored its files, all without building it by hand.
+
+💡 **Tip:** `git clone` only happens once. After that, the files are yours on the system.
+
+Next: [Step 3: Edit a Script with nano](./04-edit-with-nano)

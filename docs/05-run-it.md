@@ -1,4 +1,4 @@
-# Step 5: Run Your Script
+# Step 4: Run Your Script
 
 Time to run code on a supercomputer.
 
@@ -29,4 +29,4 @@ That's your code, your edit, running on the supercomputer. 🎉
 
 ⚠️ **One note on etiquette:** this script is tiny, so running it on the login node is fine. *Big* jobs (real training, large data) get sent to compute nodes through the scheduler. You'll learn that part later, this is just the warm-up.
 
-Next: [Step 6: Copy a Dataset](./06-copy-data)
+Next: [Step 5: Copy a Dataset](./06-copy-data)

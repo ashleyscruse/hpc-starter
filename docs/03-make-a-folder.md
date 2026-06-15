@@ -1,47 +1,43 @@
-# Step 3: Make a Folder
+# Step 1: Make a Folder
 
-Organizing your work is a real skill on HPC. Let's make a folder for a project.
+Let's set up a workspace, by hand, so you see how it's done.
 
-**Create a folder:**
+Go to `$WORK`, where your projects live:
+
+```bash
+cd $WORK
+```
+
+Make a project folder:
 
 ```bash
 mkdir my-project
 ```
 
-**Move into it:**
+Move into it and check where you are:
 
 ```bash
 cd my-project
-```
-
-Check where you are:
-
-```bash
 pwd
 ```
 
-**Make a folder inside it** for data:
+Make a `data` folder inside it:
 
 ```bash
 mkdir data
-```
-
-Confirm it's there:
-
-```bash
 ls
 ```
 
 You should see your new `data` folder.
 
-**Go back up** one level when you're done:
+Go back up one level:
 
 ```bash
 cd ..
 ```
 
-✅ **Checkpoint.** You created `my-project/` with a `data/` folder inside, and you can move in and out of it.
+✅ **Checkpoint.** You built `my-project/` with a `data/` folder inside, in `$WORK`.
 
-💡 **Tip:** `cd ..` means "go up one folder." `cd ~` takes you home. `cd -` jumps back to where you just were.
+💡 **Tip:** `cd ..` goes up one folder, `cd ~` takes you home, `cd -` jumps back to where you just were.
 
-Next: [Step 4: Edit a Script with nano](./04-edit-with-nano)
+Next: [Step 2: Clone a Setup](./01-clone)

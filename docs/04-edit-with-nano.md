@@ -1,10 +1,11 @@
-# Step 4: Edit a Script with nano
+# Step 3: Edit a Script with nano
 
 `nano` is a simple text editor that lives in the terminal. No mouse, just the keyboard.
 
-Open the Python script:
+Make sure you're in the project you cloned, then open the Python script:
 
 ```bash
+cd $WORK/hpc-starter
 nano hello.py
 ```
 
@@ -33,4 +34,4 @@ That's it. You're back at the prompt.
 
 💡 **Tip:** If you ever feel trapped in a terminal editor, **Ctrl + X** (nano) gets you out. Save first if you want to keep changes.
 
-Next: [Step 5: Run Your Script](./05-run-it)
+Next: [Step 4: Run Your Script](./05-run-it)

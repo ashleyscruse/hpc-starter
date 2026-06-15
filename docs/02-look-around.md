@@ -1,6 +1,6 @@
-# Step 2: Look Around
+# Look Around
 
-Let's get oriented. Three commands do most of the navigating.
+Let's get our bearings on the system before we make anything. Three commands do most of the navigating.
 
 **Where am I?**
 
@@ -8,40 +8,39 @@ Let's get oriented. Three commands do most of the navigating.
 pwd
 ```
 
-This prints your current location (the "path"). You should be in `.../hpc-starter`.
+This prints your current location (the "path").
 
 **What's here?**
 
 ```bash
 ls
+ls -lh
+ls -lat
 ```
 
-Want more detail (sizes, hidden files)?
+`ls` lists files. `-lh` adds sizes in human-readable form. `-lat` sorts by most recent.
+
+**Move between your spaces:**
 
 ```bash
-ls -la
+cd $HOME
+pwd
+cd $WORK
+pwd
 ```
 
-**Look inside a folder** without moving into it:
+`$HOME` is your small, backed-up space. `$WORK` is where your projects live. You'll spend your time in `$WORK`.
+
+**Go up, home, or back:**
 
 ```bash
-ls examples
+cd ..
+cd ~
+cd -
 ```
 
-**Read a file** right in the terminal:
+✅ **Checkpoint.** You can see where you are and move between `$HOME` and `$WORK`.
 
-```bash
-cat examples/welcome.txt
-```
+💡 **Tip:** Start typing a file or folder name and press **Tab**. The system finishes it for you, fewer typos, less typing.
 
-Try it on the Python script too:
-
-```bash
-cat hello.py
-```
-
-✅ **Checkpoint.** You read `welcome.txt` and saw the contents of `hello.py`.
-
-💡 **Tip:** Start typing a file or folder name and press **Tab**. The system finishes it for you. This saves typos and time.
-
-Next: [Step 3: Make a Folder](./03-make-a-folder)
+Next: [Make a Folder](./03-make-a-folder)

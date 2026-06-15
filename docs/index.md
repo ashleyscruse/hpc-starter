@@ -6,24 +6,34 @@ This is about getting *comfortable* on the system. The heavy computing comes lat
 
 ## What you'll do
 
-1. **Clone** this repo onto the system
-2. **Look around** the files and folders
-3. **Make** your own folder
+1. **Look around** and get your bearings
+2. **Make** your own folder, by hand
+3. **Clone** a ready-made setup (instead of building it by hand)
 4. **Edit** a Python script with `nano`
 5. **Run** your script (a hello world)
 6. **Copy** a dataset into your workspace
 
+First, a quick tour of the machine itself.
+
 ## Before you start: open a terminal on Vista
 
-You need a terminal connected to Vista. Your instructor will walk you through logging in. The standard way is SSH:
+You need a terminal connected to Vista. Your instructor will walk you through logging in.
 
-```bash
-ssh taccusername@vista.tacc.utexas.edu
-```
+### Mac or Windows? It stops mattering once you're in
 
-(You can also open a terminal from the Tapis web portal at [morehouse.tapis.io](https://morehouse.tapis.io) if you prefer not to use your own terminal.)
+Good news: every command in this walkthrough runs on **Vista's Linux**, not on your laptop. So Mac or PC, once you're connected, everything is identical. The only thing that differs is how you open a terminal and connect:
 
-Once your prompt looks something like `username@login2 $`, you're on the system. 🎉
+- **Easiest for everyone:** use the terminal built into the **Tapis web portal** at [morehouse.tapis.io](https://morehouse.tapis.io). It runs in your browser, so your laptop's operating system doesn't matter at all.
+- **On a Mac:** open the **Terminal** app and run this *on your laptop*:
+  ```bash
+  ssh taccusername@vista.tacc.utexas.edu
+  ```
+- **On Windows:** open **Windows Terminal** or **PowerShell** and run the same command *on your laptop*:
+  ```bash
+  ssh taccusername@vista.tacc.utexas.edu
+  ```
+
+Once your prompt looks something like `username@login2 $`, you're on Vista. From here on, **everyone types the exact same commands.** 🎉
 
 ## A few comforting facts
 
@@ -31,4 +41,4 @@ Once your prompt looks something like `username@login2 $`, you're on the system.
 - If a command doesn't work, nothing breaks. Read the message, fix the typo, try again.
 - Stuck for more than a minute? Ask. That's what we're here for.
 
-Ready? Start with [Step 1: Clone the Repo](./01-clone).
+Ready? Start with [Meet the Machine](./system-tour).
