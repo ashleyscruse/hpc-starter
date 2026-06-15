@@ -28,5 +28,3 @@ That's the whole foundation. Everything else builds on this.
 ## What's next
 
 You'll come back to do real computing: sending jobs to the compute nodes, working in Jupyter, and training machine learning models on the system. You now have the muscle memory to navigate it all.
-
-The hard part was never the commands. It was walking in the door. You did that today.
