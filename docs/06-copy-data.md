@@ -1,35 +1,33 @@
 # Step 6: Copy a Dataset
 
-Real work means moving data around. This repo includes a small sample dataset (500 real US flights) in the `data` folder. Let's copy it into the project folder you made.
+Real work means moving data around, and real datasets are big. A dataset has been staged on the system for you: a database of about 38 million NYC taxi trips (roughly 6.3 GB). You'll copy it into your project folder.
 
-Make sure you're back in the `hpc-starter` folder:
+Make sure you're in the `hpc-starter` folder (where your `my-project` lives):
 
 ```bash
 cd $WORK/hpc-starter
 ```
 
-Copy the file into your project's data folder:
+Copy the dataset from the staged location into your project's data folder:
 
 ```bash
-cp data/flights_500.csv my-project/data/
+cp /work/10539/ashleyscruse/vista/gosha-sql-assignment/data/nyc_taxi.db my-project/data/
 ```
 
-The pattern is always `cp <what> <where>`.
+This file is about 6.3 GB, so give it a few seconds.
 
-Confirm it arrived:
+Confirm it arrived, and see how big it is:
 
 ```bash
-ls my-project/data
+ls -lh my-project/data/
 ```
 
-Take a peek at the first few lines:
+✅ **Checkpoint.** You should see `nyc_taxi.db` at about `6.3G` in your project's data folder.
 
-```bash
-head my-project/data/flights_500.csv
-```
+💡 **What just happened:** the source path `/work/10539/ashleyscruse/vista/...` is on the instructor's account. You copied a file someone else staged for you, by its full path. That is a very common HPC pattern: a shared dataset lives in one place, and everyone copies (or reads) what they need.
 
-✅ **Checkpoint.** You see flight rows (dates, airlines, delays) in your own project folder.
+💡 **What's in it:** a SQLite database of NYC taxi trips. You don't need to open it today, you'll learn to query data like this later. For now, you just copied a real, multi-gigabyte dataset into your own workspace.
 
-💡 **Bringing your own data later:** from your laptop you can upload files through the Tapis web portal at [morehouse.tapis.io](https://morehouse.tapis.io), or use `scp` from your terminal. For today, copying within the system is the skill.
+💡 **Bringing your own data later:** from your laptop you can upload through the Tapis web portal at [morehouse.tapis.io](https://morehouse.tapis.io), or use `scp`. Today the skill is copying a staged dataset.
 
 Next: [More Than One Way In](./07-many-ways-in)

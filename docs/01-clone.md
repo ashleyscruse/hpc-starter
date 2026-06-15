@@ -23,7 +23,7 @@ cd hpc-starter
 ✅ **Checkpoint.** Run `ls`. You should see something like:
 
 ```
-README.md   data   docs   examples   hello.py
+README.md   docs   examples   hello.py
 ```
 
 💡 **Tip:** `git clone` only needs to happen once. After that, the files are yours on the system.

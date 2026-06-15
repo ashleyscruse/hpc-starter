@@ -30,8 +30,9 @@ Then open the walkthrough and follow along.
 | File / folder | What it is |
 |---|---|
 | `hello.py` | The script you'll edit and run |
-| `data/flights_500.csv` | A small sample dataset to practice copying |
 | `examples/welcome.txt` | A file to practice reading |
 | `docs/` | The follow-along walkthrough (this is the website) |
+
+The dataset for the copy exercise is staged separately on Vista (see the walkthrough), not bundled here.
 
 Made for the MSCF summer cohorts. You can't break anything here. If you get stuck, ask.

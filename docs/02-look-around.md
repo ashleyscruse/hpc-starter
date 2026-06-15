@@ -25,7 +25,6 @@ ls -la
 **Look inside a folder** without moving into it:
 
 ```bash
-ls data
 ls examples
 ```
 
