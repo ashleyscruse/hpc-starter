@@ -35,4 +35,4 @@ Then open the walkthrough and follow along.
 
 The dataset for the copy exercise is staged separately on Vista (see the walkthrough), not bundled here.
 
-Made for the MSCF summer cohorts. You can't break anything here. If you get stuck, ask.
+Made for the MSF summer cohorts. You can't break anything here. If you get stuck, ask.
